@@ -1,0 +1,40 @@
+$(document).ready(
+	function() {
+		$(".container").wtRotator({
+			width:1120,
+			height:420,
+			button_width:18,
+			button_height:18,
+			button_margin:5,
+			auto_start:true,
+			delay:8000,
+			play_once:false,
+			transition:"fade",
+			transition_speed:800,
+			auto_center:true,
+			easing:"",
+			cpanel_position:"inside",
+			cpanel_align:"BC",
+			timer_align:"top",
+			display_thumbs:true,
+			display_dbuttons:false,
+			display_playbutton:false,
+			display_numbers:false,
+			display_timer:true,
+			mouseover_pause:false,
+			cpanel_mouseover:false,
+			text_mouseover:false,
+			text_effect:"fade",
+			text_sync:true,
+			tooltip_type:"image",
+			lock_tooltip:true,
+			shuffle:false,
+			block_size:75,
+			vert_size:55,
+			horz_size:50,
+			block_delay:25,
+			vstripe_delay:75,
+			hstripe_delay:180			
+		});
+	}
+);

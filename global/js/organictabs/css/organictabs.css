@@ -1,0 +1,8 @@
+/*
+	 Organic Tabs
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+/* Generic Utility */
+.hide { position: absolute; top: -9999px; left: -9999px; }
